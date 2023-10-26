@@ -7,7 +7,7 @@ public class Year {
         this.year = year;
     }
 
-    public Boolean isYear() {
+    public Boolean isLeap() {
         if (this.year % 400 == 0)
             return true;
         if (this.year % 100 == 0)
